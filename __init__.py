@@ -11,7 +11,7 @@ from OpenSSL import crypto, SSL
 # OpenVPN Download Page
 ### User Certificate Download
 A certificate can only establish one connection at a time, avoid using the same certificate to prevent networking issues.
-- [User Generated Certificate](https://domain.tld/openvpn_certificate)
+- [User Generated Certificate](openvpn_certificate)
 
 ### Rules
 - OpenVPN server is out of scope/play for CTF challenges
