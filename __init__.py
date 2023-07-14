@@ -287,4 +287,4 @@ def load(app):
             with open(cert_path, "w") as f:
                 f.write(ovpn)
 
-        return send_from_directory(directory=CLIENT_CERT_DIR, filename=cert_name)
+        return send_from_directory(directory=CLIENT_CERT_DIR, path=cert_name, as_attachment=True)
